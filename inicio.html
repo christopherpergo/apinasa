@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Fotos/nasa.logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+
+    <title>NASA</title>
+</head>
+
+<body>
+
+    <header>
+       
+<h2 class="nombrepagina"> Agencia Espacial Americana</h2> 
+<div class="padreHeader">
+<div class="textoHijo">
+    <h1>{API Nasa}</h1>
+    <p>¿Sabías que la NASA comparte una imagen diaria capturada por su satélite espacial? En esta página, puedes ver la foto del día  que se actualizará a cada 24 horas y explorar todas las imágenes compartidas desde 1995, una ventana al universo</p>
+    <a class="enlaceapi" href="https://api.nasa.gov/">API Nasa</a>
+</div>
+ <div class="tierra-logo">
+ <img class="tierra-img" src="Fotos/pngwing.com.png" alt="foto planeta tierra">
+        </div>
+
+    </div>
+    </header>
+
+
+    <main>
+<div class="textEntrada">
+        <h1>Aquí podrás ver imagenes y información de la <br>NASA actualizadas diariamente</h1>
+    </div>
+    <div class="textEntrada2">
+        <h1>Aquí podrás ver imagenes y información de la <br>NASA actualizadas diariamente</h1>
+    </div>
+
+<div class="padrenasaFotodeldia">
+        <!-- foto del dia -->
+<div id="fotodeldia"></div>
+        <hr> 
+  
+                <!-- calendario  -->
+    <div>
+    <div class="formulario">
+            <label class="seleccionafecha" for="fecha">"Elige una fecha y podrás visualizar una fotografía <br> capturada por la NASA."</label>
+            <br>
+            <input type="date" id="fecha" name="fecha">
+            <button id="boton" class="boton" onclick="obtenerContenido()">SELECCIONAR</button>
+            <div id="resultado"></div>
+        </div>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+
+        <div class="padrefooter">
+            <div class="footerMovil">
+                <p>Creado por Christopher Pereira</p>
+                <p>📧 christopher.pg1990@gmail.com</p>
+                <p>📲 (34) 651.158.543</p>
+            </div>
+
+            <div>
+                <p>©️ Derechos reservados </p>
+                <a class="enlaceapi" href="https://api.nasa.gov/">API Nasa</a>
+            </div>
+
+
+        </div>
+    </footer>
+    <script src="nasa.js"></script>
+</body>
+
+</html>
