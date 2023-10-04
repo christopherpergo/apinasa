@@ -1,4 +1,0 @@
-[build]
-  base = "apinasa" # Ruta relativa a la carpeta que contiene tu proyecto
-  publish = "apinasa" # Ruta relativa a la carpeta que contiene los archivos a publicar
-
