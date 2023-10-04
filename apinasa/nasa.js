@@ -35,7 +35,7 @@ fetch("https://api.nasa.gov/planetary/apod?api_key=5RiasxgGjJrphvhUasTssVrbLa7tq
         let contenido2 = datos.explanation
         resultadoDiv.innerHTML = `
         <div id="resultado1">
-        <a class="cerrar" href="inicio.html">X</a>
+        <a class="cerrar" href="index.html">X</a>
         <div class="padrenasa"> <div>
         <img class="fotoapi" src= "${contenido}">
         </div> <div>
