@@ -1,4 +1,4 @@
 [build]
-  base = "C:\Users\chris\OneDrive\Escritorio\apinasa" 
-  publish = ""
-  command = "echo 'No build step required'"
+  base = "apinasa" # Ruta relativa a la carpeta que contiene tu proyecto
+  publish = "apinasa" # Ruta relativa a la carpeta que contiene los archivos a publicar
+
