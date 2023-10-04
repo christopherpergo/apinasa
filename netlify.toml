@@ -1,4 +1,4 @@
 [build]
-  base = "C:/Users/chris/OneDrive/Escritorio/apinasa" # Ruta de la base (base directory)
-  publish = "C:/Users/chris/OneDrive/Escritorio/apinasa/dist" # Directorio de publicación (publish directory)
-  command = "npm run build" # Comando de construcción (build command)
+  base = "C:\Users\chris\OneDrive\Escritorio\apinasa" 
+  publish = ""
+  command = "echo 'No build step required'"
