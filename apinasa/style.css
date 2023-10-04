@@ -567,10 +567,46 @@ mq grande */
   
     @media (min-width: 1400px){
 
-      body{
+      main{
         margin-left: 150px;
         margin-right: 150px;
       }
+      .textoHijo{
+        width: 650px;
+        margin-top: 220px;
+        color: white;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: 23px;
+        animation: myText 7s ease  1 normal none;
+      }
+      @keyframes myText {
+        0% {
+          opacity: 0;
+          transform: translateX(-250px);
+        }
+      
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      .tierra-img {
+        
+          width: 450px;
+          height: 450px;
+          margin-top: 80px;
+          animation: myAnim 50s linear 0s 2 normal none;
+        }
+      
+         @keyframes myAnim {
+          0% {
+            transform: rotate(0);
+          }
+        
+          100% {
+            transform: rotate(360deg);
+          }
+        } 
       .fotoapi {
         margin-left: 50px;
         width: 700px;
