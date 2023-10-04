@@ -24,7 +24,9 @@ fetch("https://api.nasa.gov/planetary/apod?api_key=5RiasxgGjJrphvhUasTssVrbLa7tq
     let año = fechaSeleccionada.getFullYear();
     
 
-    fetch(`https:api.nasa.gov/planetary/apod?api_key=5RiasxgGjJrphvhUasTssVrbLa7tqu9ckJAOw6Yl&date=${año}-${mes}-${dia}`)
+    // fetch(`https:api.nasa.gov/planetary/apod?api_key=5RiasxgGjJrphvhUasTssVrbLa7tqu9ckJAOw6Yl&date=${año}-${mes}-${dia}`)
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=5RiasxgGjJrphvhUasTssVrbLa7tqu9ckJAOw6Yl&date=${año}-${mes}-${dia}`)
+
       .then(respuesta => respuesta.json())
       .then(datos => {
         let resultadoDiv = document.getElementById("resultado");
