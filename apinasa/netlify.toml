@@ -1,7 +1,8 @@
 [build]
-  base = "apinasa" # Ruta relativa al directorio raíz del proyecto
-  publish = "apinasa" # Ruta relativa al directorio de archivos a publicar
-  command = "" # Vacío, ya que no necesitas un comando de construcción específico
+  base = "apinasa"
+  publish = "/opt/build/repo/apinasa/apinasa"
+  command = ""
+
 
 
 
