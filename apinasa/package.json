@@ -1,0 +1,21 @@
+{
+    "name": "mi-proyecto",
+    "version": "1.0.0",
+    "description": "Api FrontEnd",
+    "main": "index.html",
+    "scripts": {
+      "build": "echo 'No se necesita un script de construcción para este proyecto.'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/christopherpergo/apinasa.git"
+    },
+    "keywords": [
+      "html",
+      "javascript",
+      "css"
+    ],
+    "author": "Christopher Pereira Gomes",
+    "license": "MIT"
+  }
+  
