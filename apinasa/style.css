@@ -84,16 +84,16 @@ hr {
       color: rgb(250, 250, 250);
     }
     25% {
-      color: #dcdc2a; /* Verde */
+      color: #fbfbf8; /* Verde */
     }
     50% {
-      color: #56f699; /* Verde más oscuro */
+      color: #f2f8f5; /* Verde más oscuro */
     }
     75% {
-      color: #82c3f6; /* Azul */
+      color: #bee2fe; /* Azul */
     }
     100% {
-      color: #f6a0e8; /* Azul más oscuro */
+      color: #f3f3f3; /* Azul más oscuro */
     }
   }
   
@@ -108,6 +108,7 @@ hr {
   margin-left: 20px;
   border-radius: 7px;
  margin-top: 20px; 
+ border: 2px white solid;
  }
   
 .explicacionapi {
